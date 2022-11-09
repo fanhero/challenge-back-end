@@ -1,26 +1,26 @@
 ## Fanhero Back-end Code Challenge :computer:
 
-- O desafio consiste no desenvolvimento de uma API REST utilizando as tecnologias listadas abaixo.
+- O desafio consiste no desenvolvimento de uma API GraphQL utilizando as tecnologias listadas abaixo.
 - Caso não termine desenvolver todo o desafio, envia o que conseguir que nós avaliaremos com muito prazer.
-- Crie um repositório público no GitHub e envie o link para o e-mail `gustavo@fanhero.com` com assunto `Desafio Back end `.
+- Crie um repositório público no GitHub e envie o link para o e-mail `gustavo@fanhero.com` com assunto `Fanhero Code Challenge`.
 
-## Tecnologias :rocket:
+## Technology :rocket:
 
   - [NestJS](https://nestjs.com/)
   - [Typescript](https://www.typescriptlang.org/)
-  - [Typeorm](https://typeorm.io/#/)
-  - [Postgres](https://www.postgresql.org/)
+  - [Typeorm](https://typeorm.io/)
+  - [MongoDB](https://www.mongodb.com/)
   - [Insomnia](https://insomnia.rest/)
-  - REST
+  - [GraphQL](https://graphql.org/)
 
-## Sobre o desafio :pushpin:
-- O desafio consiste em desenvolver uma API REST para o sistema de transações do .
+## About the Chanllenge :pushpin:
+- O desafio consiste em desenvolver uma API GraphQL para o sistema de transações do .
 
-- **Básico**
-  - Requisitos
-    - O sistema deve ser capaz de estabelecar uma conexão com um banco de dados Postgres.
+- **Basic**
+  - Requirements
+    - O sistema deve ser capaz de estabelecar uma conexão com um banco de dados MongoDB.
     - O sistema deve ser capaz de lidar com requisições com formato de dados do tipo `JSON`.
-    - O sistema deve ser capaz de cadastrar usuários.
+    - O sistema deve ser capaz de gerenciar usuários (view the list of users, create, update, delete.
     - O sistema deve ser capaz de persistir essas informações em um banco de dados relacional.
   - Adicionar arquivo de rotas do Insomnia 
   - Adicionar migrations
@@ -57,7 +57,7 @@
     - A transação deve possuir um valor (referente ao valor em R$ da transação), relação com quem envia e quem recebe o PIX (usuário que envia e usuário que recebe o PIX) e um id.
 
 ## Critérios de avaliação :memo:
-- Arquitetura
+We'll be looking for simple, well-designed, performant, and tested code in the submission.
+- Architecture
 - Clean code
-- Clareza
-- Ausência de bugs
+- Bugs free
